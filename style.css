@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+body{
+	margin: 0;
+	background: url(back.jpg);
+	background-size: 100%;
+}
+
+header{
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-inline: 10px;
+	border-radius: 0px 0px 100px 100px;
+}
+/* Header */
+.nav li{
+	margin-inline: 15px;
+	
+}
+
+.logo img{
+	width: calc(100px + (200 - 100) * ((100vw - 500px) / (1920 - 500)));
+}
+
+
+.nav li{
+	display: inline-block;
+	
+}
+
+.nav a{
+	font-size: calc(10px + (22 - 10) * ((100vw - 500px) / (1920 - 500)));
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+}
+
+.nav a:hover{
+	color: red;
+	transition: color 0.3s linear;
+}
+
+.search {
+	width: calc(40px + (400 - 40) * ((100vw - 500px) / (1920 - 500)));
+    height: 30px;
+    font-size: calc(10px + (20 - 10) * ((100vw - 500px) / (1920 - 500)));
+    text-indent: 10px;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+}
+
+/* Страница */
+
+.page{
+	padding: 30px 0px 50px 0px;
+}
+
+.cartoons_list{
+	background: rgba(0, 0, 0, 0.3);
+	border: 2px solid black;
+	margin-inline: 10%;
+	border-radius: 10px;
+	margin-top: 10px;
+	
+}
+
+.cartoons img{
+	width: calc(110px + (140 - 110) * ((100vw - 500px) / (1920 - 500)));
+	border-radius: 8px;
+	border:1px solid black;
+}
+.cartoons ul{
+	margin: 10px 10px;
+}
+ .mult{
+	
+}
+ 
+.cartoons li{
+	margin: 20px 22px 20px 22px;
+	margin-inline: 10px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 10px;
+	border-radius: 8px;
+}
+
+.cartoons li:hover{
+	background: white;
+}
+
+.cartoons a{
+	text-decoration: none;
+}
+
+.cartoons p{
+	color: black;
+	font-family: arial;
+	font-size: 18px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.mult{
+	color: black;
+	font-family: arial;
+	font-size: 20px;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+
+.video-mult video{
+	width: calc(600px + (800 - 600) * ((100vw - 500px) / (1920 - 500)));
+	height: calc(340px + (420 - 340) * ((100vw - 500px) / (1920 - 500)));
+	border-radius: 5px;
+}
+
+.mult-name{
+	color: black;
+	font-family: arial;
+	font-size: calc(14px + (20 - 14) * ((100vw - 500px) / (1920 - 500)));
+	display: flex;
+	justify-content: center;
+	margin: 20px 200px 5px 200px;
+}
+
+.video-back{
+	background: black;
+	padding: 8px 8px;
+	border-radius: 5px;
+	border: 1px solid white;
+}
+.video-mult{	
+	padding: 30px 0px 0px 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.verticalLine {
+  border: 1px solid black;
+}
